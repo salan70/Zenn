@@ -226,7 +226,7 @@ class PersonListPage extends ConsumerWidget {
 # おまけ
 ここまでで、FutureProviderを使ってAPIのデータを取得することは完了しました。
 
-が、これだけでは物足りないと思い、first_nameの昇順ソートしてから表示するようにしました。
+が、これだけでは物足りないと思い、first_nameの昇順でソートしてから表示するようにしました。
 （もともとはidの昇順で表示されていました）
 ※冒頭に載せたサンプルアプリのスクショではfirst_nameの昇順でソートされています。
 
@@ -238,13 +238,19 @@ class PersonListPage extends ConsumerWidget {
 ```dart:person_list_view_model.dart
 class PersonListViewModel {
   List<Person> sortFirstName(List<Person> personDataList) {
+    
     final result = personDataList
       ..sort((a, b) => a.first_name.compareTo(b.first_name));
+    
+    // 上記について、カスケード記法を使わない場合、以下のように書けます。
+    // final result = personDataList;
+    // result.sort((a, b) => a.first_name.compareTo(b.first_name));
 
     return result;
   }
 }
 ```
+
 
 そして、ViewのWidget内で上記の関数を呼び出し、表示するListを変更しました。
 ※もともとは、 **personDataListFutureProvider** で返ってくるListをそのまま表示していましたが、このListを **sortFirstName()** 関数に引数として渡し、返ってくるListを表示するようにしました。
@@ -311,8 +317,7 @@ https://zenn.dev/jojojo/articles/2e85c8a885e85e
 
 
 # おわりに
-今回に限った話ではありませんが、情報を発信してくださっている方々には本当に感謝しております。
-ありがとうございます！
+今回に限った話ではありませんが、情報を発信してくださっている方々には本当に感謝しております。ありがとうございます！
 
 また、もしこの記事で至らない部分がありましたらご指摘いただけるととても嬉しいです。
 
