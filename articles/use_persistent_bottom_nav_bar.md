@@ -122,7 +122,7 @@ onPressed: () {
 ```
 
 ### 画面遷移のアニメーションの設定方法
-パラメータ **「pageTransitionAnimation」** で画面遷移のアニメーションを設定することが出来ます。
+pushNewScreenのパラメータ **「pageTransitionAnimation」** で画面遷移のアニメーションを設定することが出来ます。
 | PageTransitionAnimation.cupertino <br>（デフォルト） | PageTransitionAnimation.slideUp | 
 | ---- | ---- | 
 |![](/images/use_persistent_bottom_nav_bar/fullscreen_slide.gif =250x) |![](/images/use_persistent_bottom_nav_bar/fullscreen_up.gif =250x) |
