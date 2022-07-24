@@ -84,7 +84,7 @@ class BasePage extends StatelessWidget {
 ![](/images/use_persistent_bottom_nav_bar/tab_view.gif =250x)
 
 なお、PersistentTabViewのパラメータ **「navBarStyle」** で、様々なstyleを設定することが出来ます。
-各styleのデザインについては、大変分かりやすくまとめてくださっている記事がありますので是非こちらをご覧ください。
+各styleのデザインについては、大変簡潔にまとめてくださっている記事がありますので是非こちらをご覧ください。
 https://zenn.dev/r0227n/scraps/7d34254f858582
 
 ## 画面遷移
