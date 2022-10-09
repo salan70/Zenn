@@ -8,7 +8,7 @@ published: false
 # はじめに
 fractionパッケージを使うことで、分数と帯分数を簡単に扱うことができます。  
 
-例えば、整数や小数を分数や帯分数に変換したり、分数同士で計算したり、少数+分数の計算したりといったことができます。
+例えば、整数や小数を分数や帯分数に変換したり、分数同士で計算したりといったことができます。
 
 # fractionパッケージの使い方
 fractionパッケージでは、Fraction型は分数とMixedFraction型が用意されています。  
@@ -151,5 +151,5 @@ final reducedSumB = sumB.reduce(); // 1 3/4
 
 # 参考
 https://pub.dev/packages/fraction
-https://matsumarudesu.com/flutter-dart-fraction/
 https://github.com/albertodev01/fraction
+https://matsumarudesu.com/flutter-dart-fraction/
