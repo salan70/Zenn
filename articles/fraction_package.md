@@ -3,7 +3,7 @@ title: "【Flutter】fractionパッケージを使って分数と帯分数を簡
 emoji: "💔"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [flutter]
-published: false
+published: true
 ---
 # はじめに
 fractionパッケージを使うことで、分数と帯分数を簡単に扱うことができます。  
