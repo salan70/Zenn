@@ -30,7 +30,7 @@ https://pub.dev/packages/universal_html
 ## 実装内容を整理
 まずは実装内容を細分化してみます。
 
-今回実装するのは、次のようなWebスクレイピングでした。
+今回実装するのは、次のようなWebスクレイピングです。
 - Wikipediaから、現時点で広島東洋カープに所属している捕手の名前と出身地を取得する
 
 上記を次のような手順で実装していこうと思います。
@@ -237,3 +237,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
 # 参考
 https://pub.dev/packages/universal_html
+https://qiita.com/toda-axiaworks/items/dd05264d5a7953316494#step2-flutter%E3%81%A7%E5%AE%9F%E7%8F%BE%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95%E3%82%92%E8%80%83%E3%81%88%E3%82%8B
+https://zenn.dev/tris/articles/9705b93a02425f
+https://qiita.com/fnm0131/items/eb28c64712126ed2899d
+https://qiita.com/Azunyan1111/items/b161b998790b1db2ff7a
